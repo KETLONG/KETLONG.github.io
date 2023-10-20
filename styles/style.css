@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+}
+/* .body {
+
+} */
+
+/* .page-header {
+
+} */
+
+.page-header__nav-link {
+    margin: 0 25px;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+/* .page-footer {
+    
+} */
