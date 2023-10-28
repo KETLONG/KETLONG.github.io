@@ -14,41 +14,38 @@
 </head>
 
 <body class="body">
-    <h1>Hello, my color is red!</h1>
     <header class="page-header">
-        <a href="index.html" class="page-header__logo">Логотип</a>
-        <nav class="page-header__nav">
-            <a href="#" class="page-header__nav-link">Мероприятия</a>
-            <a href="#" class="page-header__nav-link">Блог</a>
-            <a href="#" class="page-header__nav-link">О нас</a>
-            <a href="#" class="page-header__nav-link">Контакты</a>
-        </nav>
+        <div class="page-header__container">
+            <a href="index.html" class="page-header__logo">
+                <img src="assets/images/logo.svg" class="page-header__logo-img">
+            </a>
+            <nav class="page-header__nav">
+                <a href="#" class="page-header__nav-link">Мероприятия</a>
+                <a href="#" class="page-header__nav-link">Блог</a>
+                <a href="#" class="page-header__nav-link">О нас</a>
+                <a href="#" class="page-header__nav-link">Контакты</a>
+            </nav>
 
-        <a href="#" class="btn page-header__user-btn"></a>
+            <a href="#" class="btn page-header__user-btn">Вход</a>
+        </div>
     </header>
     <main class="main">
         <div class="home">
 
             <header class="main-header home__main-header">
-                <div class="home__main-header--heading">арт — пространство</div>
-                <div class="home__main-header--logo">Lenni</div>
-                <div class="home__main-header--heading">для людей, горящих сердец и делом место для настоящего</div>
+                <h1 class="main-header__title">Арт — пространство</h1>
+                <picture class="main-header__picture">
+                    <img src="assets/images/lenni.png" class="main-header__img">
+                </picture>
+                <p class="main-header__text">Для людей, горящих сердцЕМ и делом
+                    место для настоящего</p>
             </header>
-            <section class="offers home__offers">
 
-            </section>
-            <section class="about home__about">
-
-            </section>
-            <section class="upcoming home__upcoming">
-
-            </section>
-            <section class="listing home__listing">
-
-            </section>
-            <section class="contacts home__contacts">
-
-            </section>
+            <section class="offers home__offers"></section>
+            <section class="about home__about"></section>
+            <section class="upcoming home__upcoming"></section>
+            <section class="listing home__listing"></section>
+            <section class="contacts home__contacts"></section>
 
             <div class="doit home__doit"></div>
         </div>
