@@ -134,3 +134,36 @@
     height: 100%;
     object-fit: contain;
 }
+
+.main-header__iwant {
+    margin: 100px 0 46px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.44px;
+    color: #1f1e1e;
+}
+
+.main-header__btn {
+    margin: 0 auto;
+    max-width: 789px;
+    width: 100%;
+}
+
+.main-header__event-btn,
+.main-header__orenda-btn {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 15px 40px;
+    margin: 0 53px;
+    background-color: transparent;
+    border: 1px solid #1f1e1e;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 600;
+    color: #1f1e1e;
+}
