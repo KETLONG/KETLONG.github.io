@@ -30,9 +30,13 @@
     }
 }
 
-.page-header__container {
+.page-header__container,
+.events__container {
     box-sizing: border-box;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
     padding-left: 40px;
     padding-right: 40px;
@@ -42,7 +46,6 @@
 
 .page-header__logo {
     display: inline-block;
-    margin-right: 237px;
     width: 202px;
     height: 147px;
 }
@@ -54,7 +57,6 @@
 
 .page-header__nav {
     display: inline-block;
-    margin-right: 230px;
 }
 
 .page-header__nav-link {
@@ -167,3 +169,92 @@
     font-weight: 600;
     color: #1f1e1e;
 }
+
+.events {
+    padding-top: 147px;
+}
+
+.events__container {
+    flex-direction: column;
+}
+
+.events__title {
+    align-self: center;
+}
+
+.title {
+    margin: 0 0 150px;
+    box-sizing: border-box;
+    padding: 7px 45px 9px;
+    max-width: 624px;
+    width: 100%;
+    text-align: center;
+    background-color: #1f1e1e;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 36px;
+    font-style: normal;
+    font-family: 'Lora';
+    color: #fff;
+}
+
+.listing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px 60px;
+}
+
+.card-event {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-event__link{
+    text-decoration: none;
+}
+
+.card-event__link:hover .card-event__title
+
+.card-event__picture {
+    position: relative;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.card-event__picture::before {
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 107.160%;
+}
+
+.card-event__picture-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-event__title {
+    margin: 0 0 auto;
+    min-height: 64px;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    text-height: normal;
+    color: #1f1e1e;
+    /* transition: color 0.2s, text-dec; */
+}
+
+
+
+/* .listing__card-event {
+    max-width: 405px;
+    width: calc(33.333% - 40px);
+} */
